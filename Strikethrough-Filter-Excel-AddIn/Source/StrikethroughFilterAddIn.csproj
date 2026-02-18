@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ExcelDna.AddIn" Version="1.6.0" />
+    <PackageReference Include="ExcelDna.Interop" Version="14.0.1" />
+  </ItemGroup>
+
+</Project>

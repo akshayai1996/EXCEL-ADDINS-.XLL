@@ -1,0 +1,17 @@
+# Build outputs
+bin/
+obj/
+
+# VBA / Legacy
+*.bas
+*.xlam
+*.txt
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE
+.vs/
+*.user
+*.suo

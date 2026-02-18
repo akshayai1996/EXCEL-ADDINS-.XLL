@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ExcelDna.AddIn" Version="1.6.0" />
+    <PackageReference Include="ExcelDna.Interop" Version="14.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel">
+      <HintPath>$(PkgExcelDna_Interop)\lib\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Office">
+      <HintPath>$(PkgExcelDna_Interop)\lib\Office.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
